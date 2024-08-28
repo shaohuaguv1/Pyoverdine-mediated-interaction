@@ -1,0 +1,23 @@
+Cytoscape is used for visualizing the network. 
+1.1. In generating the overview of the pyoverdine interaction network (cytoscape_ironnet_20240407_network.cys), import the "cytoscape_ironnet_byspecies_20240407_network.csv" as the network topology, and "cytoscape_ironnet_byspecies_20240407_nodespro.csv" as the node property. 
+1.2. Import and apply the "fullnet_styles.xml" style. 
+1.3. In layout, select "Edge-weighted Spring Embedded layout" with "isproduce" as the weight.
+
+
+
+
+
+
+1.先选style ：circular_then_force
+2.Filter edge：isproducer is 0
+3.隐藏选中的edges
+4.然后选择layout yFiles Circular Layout
+5.显示所有edges and nodes
+6.Filter node：straintype contains 3（将所有cheater选中）
+7.layout Attribue Circle layout——selected nodes only——随便选一个（eg. none）
+8.最后将所有cheaters围成的圆圈整体上移，调整成自己喜欢的样子。
+
+
+https://manual.cytoscape.org/en/stable/Navigation_and_Layout.html
+
+

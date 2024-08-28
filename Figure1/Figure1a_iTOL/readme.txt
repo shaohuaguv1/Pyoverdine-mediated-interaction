@@ -1,0 +1,3 @@
+phy_1928_midpoint.tre and iTOL_annotation_editor_v1_4_Excel.xlsm are input files for  iTOL web tool (http://huttenhower.sph.harvard.edu/galaxy/).  The former is the phylogenetic tree file of 1928 strains of Pseudomonas, and the latter is the data file of the four outer circles of the phylogenetic tree.
+
+The phylogenetic tree was constructed utilizing the PhyloPhlAn3 pipeline (doi:10.1038/s41467-020-16366-7). PhyloPhlAn is a comprehensive pipeline that encompasses the identification of phylogenetic markers, multiple sequence alignment, and the inference of phylogenetic trees. In this analysis, we employed over 400 universal genes defined by PhyloPhlAn as our selected phylogeny markers. 
